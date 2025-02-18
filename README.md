@@ -29,6 +29,14 @@ y = kan(x)
 
 The `log_example.py` file contains an example of how to use the KAN framework for approximating the log function. The example demonstrates how to create a simple neural network using KAN layers and train it on a synthetic dataset.
 
+The results of the example are shown below:
+
+![Log Example](log.svg)
+
+The loss:
+
+![Loss](loss.svg)
+
 ## References
 
 - Kolmogorov, A. N. (1957). On the representation of continuous functions of many variables by superpositions of continuous functions of one variable and addition. Doklady Akademii Nauk SSSR, 114(5), 953-956.
