@@ -27,7 +27,7 @@ y = kan(x)
 
 ## Examples
 
-The `log_example.py` file contains an example of how to use the KAN framework for approximating the log function. The example demonstrates how to create a simple neural network using KAN layers and train it on a synthetic dataset.
+> The `log_example.py` file contains an example of how to use the KAN framework for approximating the log function. The example demonstrates how to create a simple neural network using KAN layers and train it on a synthetic dataset.
 
 The results of the example are shown below:
 
@@ -36,6 +36,33 @@ The results of the example are shown below:
 The loss:
 
 ![Loss](loss.svg)
+
+> The `kan_network.py` file contains an example of how to use the KAN framework for approximating the $sin(-x)+cos(y)$ function. The example demonstrates how to create a simple neural network using KAN layers and train it on a synthetic dataset.
+
+The results of the example are shown below:
+
+![Sin Example](sin-x.svg)
+
+![cos Example](cosx.svg)
+
+The loss:
+
+![Loss](loss_sincos.svg)
+
+
+> The `ode_example.py` file contains an example of how to use the KAN framework for solving ordinary differential equations. The example demonstrates how to create a simple neural network using KAN layers and train it on a synthetic dataset.
+
+The results of the example are shown below:
+
+![ODE Example](ode.svg)
+
+The loss:
+
+![Loss](loss_ode.svg)
+
+## Requirements
+
+torch matplotlib numpy
 
 ## References
 
